@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html manifest="OfflineApp.manifest">
+<head>
+<title>HelloWorld</title>
+<meta name="generator" content="NS Basic/App Studio 2.1.0.2" />
+<meta name="date" content="2012-05-23 02:22:46.535000" />
+<meta name="version" content="1.0.0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=0.6667, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="YES" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="copyright" content="Copyright 2010 ABC Company" />
+<link rel="apple-touch-icon" href="nsb/images/LauncherIcon57.png" />
+<link rel="apple-touch-startup-image" href="nsb/images/SplashScreen.png" />
+<script src="nsb/complexfunctions.js"></script>
+<script src="nsb/hfunc.js"></script>
+<script src="nsb/iscroll.js"></script>
+<script src="nsb/jquery.js"></script>
+<link  href="nsb/jquery.mobile.css" rel="stylesheet"/>
+<script src="nsb/jquery.mobile.js"></script>
+<script src="nsb/messages.js"></script>
+<link  href="nsb/nsbmsgbox.css" rel="stylesheet"/>
+<script src="nsb/nsbmsgbox.js"></script>
+
+
+<script src='nsb/library/cordova.js'></script>
+
+<style type="text/css">
+#Button1 {position:absolute; left:98px; top:194px; height:32px; width:113px}
+#TextArea1 {position:absolute; left:74px; top:73px; height:57px; width:148px}
+</style>
+</head>
+<body onload="if (typeof(Form1.onshow)=='function') { Form1.onshow() };Main();" style="margin:0px; min-height:window.offsetHeight; font-family:Helvetica;background-image:url('nsb/images/backgroundStripes.png');">
+<div data-role="page" id='Page_HelloWorld' data-theme=c style="background-image:url('nsb/images/backgroundStripes.png')">
+<form id="Form1" action="" method="GET" onsubmit="return false;" style="display:none; position:absolute; top:0px; left:0px; height460px; width:320px; ">
+<div data-role='button' data-inline=true data-theme=c data-icon=false data-iconpos=none id="Button1" class=" "  style="margin:0px; overflow:visible; font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:; background-color:; ">Click me!</div>
+<textarea id="TextArea1" class=" " name="" data-theme=c  style="font-size:13px; font-family:helvetica; font-style:normal; font-weight:normal; color:black; background-color:white;-webkit-overflow-scrolling:touch; " onblur="" onclick=""  autocorrect="on"  autocomplete="on"  autocapitalize="on"  placeholder="Enter text here">Here is a simple Hello World app. Hit F5 to run it in your local browser,</textarea>
+</form>
+
+</div>
+<script>
+        //window.location.hash = 'Page_Form1';
+        document.getElementById('Form1').style.display = 'block';
+        document.getElementById('Form1').style.left = '0px';
+        if (false)
+            document.getElementsByTagName('body')[0].style.backgroundImage = 'url("file:///C%3A/Program%20Files/NSBasic/AppStudio/images/designscreen8.png")';
+        var nsbx_i;
+        var nsbx_canvas = document.getElementsByTagName('canvas');
+        for (nsbx_i = 0; nsbx_i < nsbx_canvas.length; nsbx_i++) {
+            nsbx_canvas[nsbx_i].style.border = '1px solid #0000ff';
+        }
+        var nsbx_img = document.getElementsByTagName('img');
+        for (nsbx_i = 0; nsbx_i < nsbx_img.length; nsbx_i++) {
+            nsbx_img[nsbx_i].style.border = '1px solid #0000ff';
+        }
+        </script>
+        </body>
+</html>

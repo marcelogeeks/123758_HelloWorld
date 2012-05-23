@@ -1,0 +1,34 @@
+CACHE MANIFEST
+
+CACHE:
+
+# USER FILES
+
+# SYSTEM FILES
+
+CACHE:
+nsb/images/LauncherIcon57.png
+nsb/jquery.js
+nsb/images/icons-18-white.png
+nsb/images/icons-18-black.png
+nsb/nsbmsgbox.css
+nsb/library/cordova.js
+nsb/jquery.mobile.js
+nsb/nsbmsgbox.js
+nsb/images/icons-36-white.png
+nsb/complexfunctions.js
+nsb/images/backgroundStripes.png
+nsb/iscroll.js
+nsb/images/SplashScreen.png
+nsb/hfunc.js
+nsb/images/icons-36-black.png
+nsb/images/ajax-loader.png
+nsb/jquery.mobile.css
+nsb/messages.js
+nsb/images/ajax-loader.gif
+messages.js
+
+NETWORK:
+*
+
+# buildtime: 1337750605.45
